@@ -1,4 +1,4 @@
-# PomoToDoLifeTracker
+# Life Progress Tracker: Pomodoro ToDo
 
 番茄钟 · 待办清单 · 日历统计  |  Pomodoro · To-Do · Calendar Tracker
 
