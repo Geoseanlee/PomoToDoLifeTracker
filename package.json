@@ -1,0 +1,34 @@
+{
+  "name": "pomo-todo-life-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "番茄钟 · 待办清单 · 日历统计",
+  "keywords": ["pomodoro", "todo", "time-tracker", "productivity"],
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm --parallel -r build",
+    "clean": "pnpm --parallel -r clean",
+    "lint": "pnpm --parallel -r lint",
+    "type-check": "pnpm --parallel -r type-check",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "db:reset": "supabase db reset"
+  },
+  "workspaces": [
+    "web",
+    "desktop",
+    "mobile", 
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0", 
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+} 
